@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\ChollosController;
+Route::get('/chollos', [ ChollosController::class, 'index' ]);
+Route::get('/chollos2', [ ChollosController::class, 'store' ]);
+
+
+
+
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });

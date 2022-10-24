@@ -6,6 +6,8 @@
                     composer require laravel/ui
                     php artisan ui vue --auth
                     npm run dev // Primero correr npm luego arrancar Laravel
+         -- PARA CREAR RECURSO REST.  php artisan make:controller ChollosController --resource
+            Crea tambien en la carpeta Models -> Chollo.php
         -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
